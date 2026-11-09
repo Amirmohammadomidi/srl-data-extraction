@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SRL-Extractor"
+authors:
+  - family-names: "Omidi Galdiani"
+    given-names: "Amirmohammad"
+  - family-names: "Rezaei Melal"
+    given-names: "Sepehr"
+  - family-names: "Norasteh"
+    given-names: "Mohammad"
+  - family-names: "Yousefi Jordehi"
+    given-names: "Arash"
+  - family-names: "Mirroshandel"
+    given-names: "Seyed Abolghasem"
+repository-code: "https://github.com/Amirmohammadomidi/srl-data-extraction"
+version: "1.0.0"
+license: GPL-3.0

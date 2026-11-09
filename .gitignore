@@ -1,0 +1,15 @@
+# Data exports
+*.csv
+!sample_data/expected_output.csv
+
+# Generated outputs
+/outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+
+# Virtual environments
+.venv/
