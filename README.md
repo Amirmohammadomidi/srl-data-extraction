@@ -72,13 +72,13 @@ No LDC license or OntoNotes download is needed for the demo. On Colab, the noteb
 
 The full notebooks (`df.csv` and `dataset.csv`) and the sample demo (`outputs/sample_output.csv`) use the same five columns:
 
-| Column | Description | ORL equivalent |
-|---|---|---|
-| `SENTENCE` | Trace-cleaned, tokenized Treebanked sentence | — |
-| `PREDICATES` | Surface span of the predicate (REL) | Expression |
-| `ARG0` | Surface span of the Agent/Proto-Agent argument | Holder |
-| `ARG1` | Surface span of the Patient/Proto-Patient argument | Target |
-| `Merged_Arguments` | `ARG0` and `ARG1` joined by a pipe character | — |
+| Column             | Description                                        | ORL equivalent |
+| ------------------ | -------------------------------------------------- | -------------- |
+| `SENTENCE`         | Trace-cleaned, tokenized Treebanked sentence       | —              |
+| `PREDICATES`       | Surface span of the predicate (REL)                | Expression     |
+| `ARG0`             | Surface span of the Agent/Proto-Agent argument     | Holder         |
+| `ARG1`             | Surface span of the Patient/Proto-Patient argument | Target         |
+| `Merged_Arguments` | `ARG0` and `ARG1` joined by a pipe character       | —              |
 
 Empty roles are stored as empty strings. Rows where both ARG0 and ARG1 are empty are removed. Example:
 
@@ -111,7 +111,7 @@ If you use this software or dataset, please cite:
 }
 ```
 
-The archived software release is available on Zenodo (see the DOI badge). GitHub also exposes `CITATION.cff` through **Cite this repository**.
+The archived software release **v1.1.0** is available on Zenodo at [10.5281/zenodo.24088922](https://doi.org/10.5281/zenodo.24088922). The DOI badge above tracks the latest version. GitHub also exposes `CITATION.cff` through **Cite this repository**.
 
 ## Data and license
 

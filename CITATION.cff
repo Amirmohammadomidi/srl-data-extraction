@@ -13,5 +13,6 @@ authors:
   - family-names: "Mirroshandel"
     given-names: "Seyed Abolghasem"
 repository-code: "https://github.com/Amirmohammadomidi/srl-data-extraction"
-version: "1.0.0"
+version: "1.1.0"
+doi: 10.5281/zenodo.24088922
 license: GPL-3.0
